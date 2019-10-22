@@ -1,5 +1,5 @@
 FROM python:3
 RUN pip install flask
-ADD practical1.py 
-EXPOSE 5000
+ADD practical1.py /
+EXPOSE 5000 hjfhfjf
 CMD [ "python","./practical1.py" ]
